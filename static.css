@@ -29,8 +29,18 @@ h1{
     padding-right: 40%;
     text-align: left;
     text-anchor: start;
+    color: rgb(31, 31, 31);
 }
 #grayband{
     background-color: rgb(31, 31, 31);
+    padding: 20px;
+}
+#projects{
+    padding-left: 60%;
+    text-align: right;
+    text-anchor: end;
+}
+#whiteband{
+    background-color: white;
     padding: 20px;
 }
