@@ -20,7 +20,7 @@ body{
 
 h1{
     font-family: "Josefin Sans","Roboto", sans-serif;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-weight: normal;
     color: rgb(230, 229, 229);
 }
@@ -31,16 +31,24 @@ h1{
     text-anchor: start;
     color: rgb(31, 31, 31);
 }
+#projects{
+    padding-left: 60%;
+    text-align: right;
+    text-anchor: end;
+}
 #grayband{
     background-color: rgb(31, 31, 31);
     padding: 20px;
-}
-#projects{
-    padding-left: 40%;
-    text-align: right;
-    text-anchor: end;
+    transition: all 0.2s ease;
 }
 #whiteband{
     background-color: white;
     padding: 20px;
+    transition: background-color 0.2s ease-out
+}
+#whiteband:hover{
+    background-color: rgb(204, 204, 204);
+}
+#grayband:hover{
+    background-color: rgb(43, 43, 43);;
 }
